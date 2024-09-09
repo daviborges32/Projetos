@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Materiais de Construção</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            width: 30%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .product h2 {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        .product p {
+            font-size: 1em;
+            margin: 10px 0;
+        }
+        .product .price {
+            font-size: 1.2em;
+            color: #4CAF50;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Loja de Materiais de Construção</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="products">
+            <div class="product">
+                <img src="https://images.tcdn.com.br/img/img_prod/695658/cimento_cp_ii_e_32_50kg_csn_1079_1_20190801135404.jpg" alt="Cimento">
+                <h2>Cimento</h2>
+                <p>Descrição: Cimento de alta qualidade para suas construções.</p>
+                <p class="price">R$ 25,00</p>
+            </div>
+            <div class="product">
+                <img src="https://images.tcdn.com.br/img/img_prod/695658/tijolo_baiano_em_ceramica_1085_1_20190801165112.jpg" alt="Tijolos">
+                <h2>Tijolos</h2>
+                <p>Descrição: Tijolos duráveis e resistentes para a construção.</p>
+                <p class="price">R$ 0,80/unidade</p>
+            </div>
+            <div class="product">
+                <img src="https://grafittiartes.vteximg.com.br/arquivos/ids/173395-1000-1000/acrilicaacrilex59mlvitrine.jpg?v=635163313781100000" alt="Areia">
+                <h2>Tinta acrílica</h2>
+                <p>Descrição: Tinta acrílica muito ultilizada em construções.</p>
+                <p class="price">R$ 16,00³</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Loja de Materiais de Construção. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
